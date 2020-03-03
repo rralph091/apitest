@@ -11,8 +11,8 @@ $list = $data['records'];
 
 <table>
     <tr>
-        <th>Category ID</th>
-        <th>Category Name</th>
+        <th>Category id.</th>
+        <th>Category name</th>
     </tr>
 <?php
 foreach($list as $value){
