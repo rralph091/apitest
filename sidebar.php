@@ -19,20 +19,20 @@ body {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 
 .sidenav a, .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
-  color: #818181;
+  font-size: 25px;
+  color: black;
   display: block;
   border: none;
   background: none;
   width: 100%;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   outline: none;
 }
@@ -45,7 +45,7 @@ body {
 
 .main {
   margin-left: 200px;
-  font-size: 20px; 
+  font-size: 25px; 
   padding: 0px 10px;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .dropdown-container {
   display: none;
-  background-color: #262626;
+  background-color: black;
   padding-left: 8px;
 }
 
