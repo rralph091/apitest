@@ -10,7 +10,7 @@ body {
 
 
 
-.topnav {
+.sidenav {
   height: 100%;
   width: 200px;
   position: fixed;
@@ -23,7 +23,7 @@ body {
 }
 
 
-.topnav a, .dropdown-btn {
+.sidenav a, .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -38,7 +38,7 @@ body {
 }
 
 
-.topnav a:hover, .dropdown-btn:hover {
+.sidenav a:hover, .dropdown-btn:hover {
   color: #f1f1f1;
 }
 
@@ -69,14 +69,14 @@ body {
 
 
 @media screen and (max-height: 450px) {
-  .topnav {padding-top: 15px;}
-  .topnav a {font-size: 18px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 </style>
 </head>
 <body>
 
-<div class="topnav">
+<div class="sidenav.com">
   <a href="index.php">Home</a>
   
   <button class="dropdown-btn">Products
