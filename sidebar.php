@@ -90,8 +90,6 @@ body {
   </div>
   
   <a href ="Customer1.php">Customer</a>
-  <a href="Addsup.Php">Add Supplies</a>
-  <a href="processorder.php">Order</a>
 </div>
       <div>         
       <?php 
