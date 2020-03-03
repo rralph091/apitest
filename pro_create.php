@@ -1,5 +1,7 @@
 <?php
 $name = $_POST['name'];
+<?php
+$name = $_POST['name'];
 $price = $_POST['price'];
 $description = $_POST['description'];
 $category = $_POST['category'];
@@ -8,7 +10,7 @@ $date = '2019-06-01 00:35:07';
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => "http://localhost/api/product/create.php",
+    CURLOPT_URL => "http://rdapi.herokuapp.com/product/create.php",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
     CURLOPT_MAXREDIRS => 10,
@@ -26,3 +28,4 @@ curl_setopt_array($curl, array(
   
   curl_close($curl);
   echo $response;
+  header("location:index.php?navigation=product");
