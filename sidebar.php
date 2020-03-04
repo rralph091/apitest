@@ -51,9 +51,9 @@ body {
      <li> <a href="index.php?navigation=product">Products</a></li>
      <li> <a href="index.php?navigation=categories">Category</a></li>
      <li><a href="index.php?navigation=create">Create</a></li>
+      <li><a href ="Customer1.php">Contact us</a></li>
+     <li><a href="Addsup.Php">About us</a></li>
     </ul>
-  <a href ="Customer1.php">Contact us</a>
-  <a href="Addsup.Php">About us</a>
 </div>
   </div>
 </nav>
