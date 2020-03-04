@@ -8,41 +8,6 @@ body {
   background-color:  #fffdd0;
 }
 
-
-
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-
-.sidenav a, .dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
-
-
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
-}
-
-
 .main {
   margin-left: 200px;
   font-size: 20px; 
@@ -76,23 +41,23 @@ body {
 </head>
 <body>
 
-<div class="sidenav">
-  <a href="index.php">Home</a>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="index.php">ET No.1</a>
   
-  <button class="dropdown-btn">Products
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
- <a href="index.php?navigation=product">Products</a>
- <a href="index.php?navigation=categories">Category</a>
- <a href="index.php?navigation=create">Create</a>
-	
   </div>
-  
-  <a href ="Customer1.php">Customer</a>
-  <a href="Addsup.Php">Add Supplies</a>
-  <a href="processorder.php">Order</a>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.php">HOME</a></li>
+      <li><a href="index.php?navigation=product">Products</a></li>
+      <li><a href="index.php?navigation=categories">Category</a></li>
+      <li><a href="index.php?navigation=create">Create</a></li>
+    </ul>
+  </div>
+  <a href ="Customer1.php">Contact us>
+  <a href="Addsup.Php">About us</a>
 </div>
+</nav>
       <div>         
       <?php 
         switch($navigation){
