@@ -4,10 +4,18 @@
   
   /* Style the body */
   body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     width: 50%;
     margin: auto;
+  }
+  
+ /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #FAFAFA;
+    margin-top: 20px;
   }
   
   /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -17,6 +25,36 @@
       width: 100%;
     }
   }
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
   table {
     border-collapse: collapse;
@@ -24,16 +62,16 @@
   }
   
   th, td {
- border: 2px solid #1a1a1a;
+ border: 1px solid #ddd;
   padding: 8px;
   }
   
-  tr:nth-child(even){background-color: #00cccc}
+  tr:nth-child(even){background-color: #00FFFF}
   
   th {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: left;
-  background-color: #262626;
+  background-color: #4CAF50;
   color: white;
   }
