@@ -48,14 +48,14 @@ body {
   </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.php">HOME</a></li>
-      <a href="index.php?navigation=product">Products</a>
-      <a href="index.php?navigation=categories">Category</a>
-      <a href="index.php?navigation=create">Create</a>
+     <li> <a href="index.php?navigation=product">Products</a></li>
+     <li> <a href="index.php?navigation=categories">Category</a></li>
+     <li><a href="index.php?navigation=create">Create</a></li>
     </ul>
-  </div>
   <a href ="Customer1.php">Contact us</a>
   <a href="Addsup.Php">About us</a>
 </div>
+  </div>
 </nav>
       <div>         
       <?php 
