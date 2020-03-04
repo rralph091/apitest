@@ -19,20 +19,20 @@ body {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 
 .sidenav a, .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: black;
+  font-size: 20px;
+  color: #818181;
   display: block;
   border: none;
   background: none;
   width: 100%;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   outline: none;
 }
@@ -45,7 +45,7 @@ body {
 
 .main {
   margin-left: 200px;
-  font-size: 25px; 
+  font-size: 20px; 
   padding: 0px 10px;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .dropdown-container {
   display: none;
-  background-color: black;
+  background-color: #262626;
   padding-left: 8px;
 }
 
@@ -76,7 +76,7 @@ body {
 </head>
 <body>
 
-<div class="sidenav.com">
+<div class="sidenav">
   <a href="index.php">Home</a>
   
   <button class="dropdown-btn">Products
@@ -90,6 +90,8 @@ body {
   </div>
   
   <a href ="Customer1.php">Customer</a>
+  <a href="Addsup.Php">Add Supplies</a>
+  <a href="processorder.php">Order</a>
 </div>
       <div>         
       <?php 
