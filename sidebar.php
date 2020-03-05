@@ -24,7 +24,10 @@ body {
   color: white;
 }
 
-
+h1 {
+  color: white;
+}
+  
 .dropdown-container {
   display: none;
   background-color: #17ff92;
