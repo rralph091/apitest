@@ -59,7 +59,7 @@ input[type=submit]:hover {
   padding: 8px;
   }
   
-  tr:nth-child(1n) {
+  tr:nth-child(2n) {
     background-color: black;
 }
   
