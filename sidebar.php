@@ -8,7 +8,7 @@
 <style>
 
 body {
-  background-color:  #FFD700;
+  background-color:  black;
   display: block;
   margin: 8px;
 }
