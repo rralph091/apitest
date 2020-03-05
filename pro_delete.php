@@ -1,9 +1,9 @@
 <?php
-$id = $_POST['id'];
+$id = $_GET['id'];
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://localhost/api/product/delete.php",
+  CURLOPT_URL => "http://rdapi.herokuapp.com/product/delete.php",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -22,3 +22,4 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
+header("location:index.php?module=prod");
