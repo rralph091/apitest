@@ -75,7 +75,7 @@ body {
             require_once 'product-details.php';
             break;
           case 'delete':
-             require_once 'pro-delete.php';
+             require_once 'form-delete.php';
             break;
         }
     ?>
