@@ -55,8 +55,9 @@ input[type=submit]:hover {
   }
   
   th, td {
- border: 1px solid #ddd;
+ border: 1px solid #a30d1c;
   padding: 8px;
+      color: white;
   }
   
   tr:nth-child(2n) {
