@@ -68,3 +68,6 @@ input[type=submit]:hover {
   background-color: #1d2424;
   color: F5F5DC;
   }
+   p:nth-child(odd) {
+  background: red;
+    }
