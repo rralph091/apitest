@@ -27,7 +27,7 @@ body {
 
 .dropdown-container {
   display: none;
-  background-color: #262626;
+  background-color: #17ff92;
   padding-left: 8px;
 }
 
