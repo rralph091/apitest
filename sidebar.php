@@ -74,6 +74,9 @@ body {
           case 'details':
             require_once 'product-details.php';
             break;
+          case 'delete':
+             require_once 'pro-delete.php';
+            break;
         }
     ?>
       </div>
