@@ -9,6 +9,8 @@
 
 body {
   background-color:  #fffdd0;
+  display: block;
+  margin: 8px;
 }
 
 .main {
