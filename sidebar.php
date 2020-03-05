@@ -8,7 +8,7 @@
 <style>
 
 body {
-  background-color:  #fffdd0;
+  background-color:  #FFD700;
   display: block;
   margin: 8px;
 }
@@ -20,7 +20,7 @@ body {
 }
 
  {
-  background-color: green;
+  background-color: blue;
   color: white;
 }
 
