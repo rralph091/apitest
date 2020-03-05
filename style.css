@@ -59,7 +59,7 @@ input[type=submit]:hover {
   padding: 8px;
   }
   
-  tr:nth-child(even){background-color: #1d2424}
+  tr:nth-child(odd){background-color: #1d2424}
   
   th {
   padding-top: 12px;
