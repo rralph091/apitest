@@ -75,4 +75,5 @@ input[type=submit]:hover {
   text-align: center;
   background-color: #1d2424;
   color: F5F5DC;
+   float: center;
   }
