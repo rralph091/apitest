@@ -60,7 +60,7 @@ input[type=submit]:hover {
  border: 1px solid #a30d1c;
   padding: 8px;
       color: white;
-      float: center
+      float: center;
   }
   
   tr:nth-child(2n) {
