@@ -17,7 +17,7 @@
   /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
   @media screen and (max-width: 400px) {
     .navbar a {
-      float: inherit;
+      float: none;
       width: 100%;
     }
   }
@@ -77,3 +77,24 @@ input[type=submit]:hover {
   color: F5F5DC;
    float: center;
   }
+.box{
+	 position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70%;
+  padding: 0 20px;
+  right: 13%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.insidebox{
+display: flex;
+  max-width: 800px;
+margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 65px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
